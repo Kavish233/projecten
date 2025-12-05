@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Thrones Karakter Zoeker</title>
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+
+    <div id="startPage" class="start-page">
+        <div class="start-content">
+            <h1>Game of Thrones Karakter Zoeker</h1>
+            <p>Voer een getal in tussen 0 en 52 om een karakter te zoeken</p>
+            <div class="input-section">
+                <input type="number" id="start_karakterID" placeholder="Voer getal in (0-52)" min="0" max="52">
+                <button id="start_find_character">Zoek Karakter</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="characterPage" class="parent" style="display: none;">
+        <div class="div1">
+            <h1 id="karakterNaam"></h1>
+            <h3>
+                <ul id="Informatie">
+                    <li id="FirstName"></li>
+                    <li id="LastName"></li>
+                    <li id="fullName"></li>
+                    <li id="title"></li>
+                    <li id="family"></li>
+                </ul>
+            </h3>
+        </div>
+        <div class="div2">
+            <img id="profiel" src="" alt="GOT">
+        </div>
+        <div class="div3">
+            <label>
+                <input type="number" id="karakterID" value="0" placeholder="vul getal in (0-52)">
+                <button id="find_character">Zoek karakter</button>
+            </label>
+        </div>
+    </div>
+
+    <script type="module" src="Script/main.js"></script>
+</body>
+
+</html>

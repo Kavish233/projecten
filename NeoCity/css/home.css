@@ -1,0 +1,159 @@
+body {
+  background-image: url(../images/achtergrond.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  grid-template-rows: auto 1fr;
+  width: 80%;
+  height: 70%;
+  background-color: #A6795E;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px 20px 20px 60px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+
+.div3 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.div2 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+#profiel {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.div1 {
+  margin-top: 5%;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #434477;
+  padding: 10px;
+  height: 80%;
+  width: 70%;
+  box-sizing: border-box;
+  margin-left: 15%;
+  color: white;
+}
+
+#karakterID {
+  width: 40%;            
+  padding: 10px 12px;      
+  font-size: 16px;         
+  border: 2px solid #434477;    
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+#karakterID:focus {
+  border-color: #A6795E;  
+}
+
+
+#find_character {
+  padding: 10px 20px;      
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #434477;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+}
+
+#find_character:hover {
+  background-color: #5C56A0; 
+}
+
+#find_character:active {
+  transform: translateY(1px); 
+}
+
+#karakterNaam {
+  font-size: 50px;       
+  font-weight: bold;
+  text-align: center;    
+  width: 100%;          
+  margin-bottom: 20px;   
+}
+#Informatie {
+  font-size: 21px;            
+}
+
+.start-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.start-content {
+  background-color: rgba(167, 121, 94, 0.95);
+  padding: 40px;
+  text-align: center;
+  max-width: 500px;
+  width: 90%;
+}
+.start-content h1 {
+  color: white;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.input-section {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.input-section input {
+  width: 200px;
+  padding: 15px;
+  font-size: 18px;
+  border: 3px solid #434477;
+  outline: none;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.input-section button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #434477;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
