@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #4a6d91;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.achtergrond {
+  height: 100%;
+  margin: 0 auto;
+  background-image: url("./images/keyart-en-1536x864.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h1 {
+  color: white;
+}
+.row{
+  background-color: white;
+  
+}
+
+
+.album.bg-body-tertiary {
+  background-color: #4a6d91 !important; 
+}
+.bg-genshin {
+  background-color: #a9b7c6; 
+  font-size: 2rem; 
+  font-weight: bold;
+  text-align: center;
+  padding: 1%;
+}
+.bg-zelf{
+  background-color: #f0f4f8;
+  max-width: 100%; 
+  margin: 0 auto;  
+  padding: 1rem;   
+}
+.row featurette{
+  width: 90%;
+}
+.card-text{
+  font-size: 2rem; 
+  text-align: center;
+}
+footer {
+  background-color: #a9b7c6;
+  color: white;
+}
+.nav-pills .nav-link {
+  color: #ffffff;       
+}
+.nav-pills .nav-link:hover {
+  color: #ffd700;        
+}
